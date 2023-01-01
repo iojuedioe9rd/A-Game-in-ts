@@ -2,18 +2,22 @@
   "name": "game",
   "version": "1.0.0",
   "description": "",
-  "main": "app.ts",
+  "main": "src/app.js",
   "scripts": {
-    "build": "build.bat"
+    "start": "node ."
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iojuedioe9rd/A-Game-in-ts.git"
+  },
+  "author": "Cats Studio",
   "license": "ISC",
-  "dependencies": {
-    "@types/node": "^18.11.18",
-    "socket.io": "^4.5.4",
-    "ts-node": "^10.9.1"
+  "bugs": {
+    "url": "https://github.com/iojuedioe9rd/A-Game-in-ts/issues"
   },
-  "devDependencies": {
-    "typescript": "^4.9.4"
+  "homepage": "https://github.com/iojuedioe9rd/A-Game-in-ts#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
   }
 }
