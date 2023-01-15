@@ -1,0 +1,3 @@
+GAME_NAME = 'Game'
+
+PLAYER_POSITION = 250

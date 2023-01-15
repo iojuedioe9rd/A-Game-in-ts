@@ -1,7 +1,15 @@
-<script src="/socket.io/socket.io.js"></script>
-<script>
-  const socket = io();
-
-
-  socket.emit("happy", {reason: "its my birthday"});
-</script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <script>
+            function play(){
+                window.location = "/client/index.html"
+            }
+        </script>
+    </head>
+    <body width="100%" height="100%">
+        <a href="/client"> <button onclick="play()">play</button></a>
+        
+    </body>
+</html>
